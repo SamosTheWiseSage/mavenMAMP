@@ -13,8 +13,8 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.sql.*;
 
-
-@WebServlet(urlPatterns = "/home")
+//changed from /home to /students
+@WebServlet(urlPatterns = "/students")
 public class HomeServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
